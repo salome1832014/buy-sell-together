@@ -28,3 +28,7 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Marketplace structure
+
+- Keep buyer/seller roles in a dedicated role table, profiles limited to account contact/display data, and community listings separate from the single-owner Shopify catalog; the marketplace must not imply that Shopify checkout splits seller payouts.
